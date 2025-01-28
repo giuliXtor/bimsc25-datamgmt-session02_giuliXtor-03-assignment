@@ -47,7 +47,7 @@ import TheWelcome from './components/TheWelcome.vue'
                     <p>Bagel with cream cheese</p>
                     <!-- Button for Bagel -->
                     <!-- Here we define what function will be called when button is clicked. -->
-                    <button @click="increment_bagels">Order</button>
+                    <button @click="increment_bagels">Order a Bagel</button>
                     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
                     <p style="margin-left: 1px"> Number of Bagels: {{ count_bagels }} </p>
                 </div>
@@ -57,7 +57,7 @@ import TheWelcome from './components/TheWelcome.vue'
                     <p>4 egg omelet with cheese</p>
                     <!-- Button for Omelet -->
                     <!-- Here we define what function will be called when button is clicked. -->
-                    <button @click="increment_omelets">Order</button>
+                    <button @click="increment_omelets">Order an Omelet</button>
                     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
                     <p style="margin-left: 1px"> Number of Omelets: {{ count_omelets }} </p>
                 </div>
@@ -67,7 +67,7 @@ import TheWelcome from './components/TheWelcome.vue'
                     <p>Pancakes with syrup</p>
                     <!-- Button for pancakes -->
                     <!-- Here we define what function will be called when button is clicked. -->
-                    <button @click="increment_pancakes">Order</button>
+                    <button @click="increment_pancakes">Order a Pancake</button>
                     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
                     <p style="margin-left: 1px"> Number of Pancakes: {{ count_pancakes }} </p>
                 </div>
@@ -80,7 +80,7 @@ import TheWelcome from './components/TheWelcome.vue'
                     <p>Tomato</p>
                     <!-- Button for Soup -->
                     <!-- Here we define what function will be called when button is clicked. -->
-                    <button @click="increment_soups">Order</button>
+                    <button @click="increment_soups">Order a Soup</button>
                     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
                     <p style="margin-left: 1px"> Number of Soups: {{ count_soups }} </p>
                 </div>
@@ -90,7 +90,7 @@ import TheWelcome from './components/TheWelcome.vue'
                     <p>Chicken and Avocado</p>
                     <!-- Button for sandwhich -->
                     <!-- Here we define what function will be called when button is clicked. -->
-                    <button @click="increment_sandwhiches">Order</button>
+                    <button @click="increment_sandwhiches">Order a Sandwhich</button>
                     <!-- Now we print the value. The syntax to print variable is {{ variable_name }}. -->
                     <p style="margin-left: 1px"> Number of Sandwhiches: {{ count_sandwhiches }} </p>
                 </div>
