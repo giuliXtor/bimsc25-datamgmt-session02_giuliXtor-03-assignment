@@ -1,6 +1,10 @@
-import './assets/main.css'
+// This is main JavaScript file
 
-import { createApp } from 'vue'
-import App from './App.vue'
+// From vue, we import a function to create a Vue application
+import { createApp } from "vue"
 
-createApp(App).mount('#app')
+// Import of the App.vue file
+import App from "./App.vue"
+
+// Create Vue appliction with App.vue component and inject it into element with id 'app'
+createApp(App).mount("#app")
