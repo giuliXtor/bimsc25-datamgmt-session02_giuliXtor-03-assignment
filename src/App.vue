@@ -20,7 +20,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <div id="navBar" class="flexRow spaceBetween alignCenter">
         <div class="flexRow">
             <i class="mdi mdi-food-fork-drink" style="font-size: 25px; padding-right: 10px"></i>
-            <h3 style="margin:0">Sophie's Cafe</h3>
+            <h3 style="margin:0">Giulia's Cafe</h3>
         </div>
 
         <div class="flexRow">
